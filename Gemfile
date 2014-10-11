@@ -34,6 +34,7 @@ end
 
 # include bootstrap
 gem 'bootstrap-sass', '~> 3.2.0'
+gem 'simple_form'
 gem 'autoprefixer-rails'
 
 # Use ActiveModel has_secure_password
