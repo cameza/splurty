@@ -43,7 +43,7 @@
 }
 
 header {
-	border-top: 29px solid #222222;
+	border-top: 50px solid #222222;
 }
 
 hr {
@@ -85,4 +85,11 @@ h2 {
 
 .logo:hover {
 	text-decoration: none;
+}
+
+.about {
+	ont-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: italic;
+	padding-top: 10px;
+	text-align: right;
 }
