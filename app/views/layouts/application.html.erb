@@ -9,27 +9,46 @@
 </head>
 <body>
 	<header>
-		<div class="col-xs-3">
-			<div class="circle">
-			  <br />
-			  You know
-			  <br />
-			  you need
-			  <br />
-			  to code
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="col-xs-3">
+					<div class="circle">
+					  <br />
+					  You know
+					  <br />
+					  you need
+					  <br />
+					  to code
+					</div>
+				</div>
+				<div class="col-xs-4 slogan">
+					Splurting out sports advice
+				</div>
+				<div class="col-xs-5 links">
+					<%= link_to 'Contribute', '#' %>
+					<%= link_to 'About', '#' %>
+				</div>
 			</div>
 		</div>
-		<div class="col-xs-4 slogan">
-			Splurting out sports advice
-		</div>
-		<div class="col-xs-5 links">
-			<%= link_to 'Contribute', '#' %>
-			<%= link_to 'About', '#' %>
-		</div>
+
+		
 	</header>
 	<hr />
 	<br class="clear" />
-<%= yield %>
+	<div class="container">
+		<%= yield %>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="col-xs-6">
+				<%= link_to "This isn't enough, I need more", "#", :class => 'next-quote' %>
+			</div>
+			<div class="col-xs-6 footer-blurb"
+			<p class="text-muted">Proudly built by Camilo Meza</p>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>
